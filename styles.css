@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.85rem;
+}
+
+h3 {
+    font-size: 1.65rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Clases */
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large {
+    font-size: 1.25rem;
+}
+
+.display-1 {
+    font-size: 6rem;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-dark {
+    background: #4d4d4d;
+    border: none;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background: #fff;
+    border: 1px solid #4d4d4d;
+    color: #4d4d4d
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 6px;
+    font-weight: 300;
+}
+
+form .form-group {
+    margin-bottom: 16px;
+}
+
+form .form-control {
+    display: block;
+    width: 100%;
+    padding: 7px 12px;
+    line-height: 1.5;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 4px;
+}
+
+}
+
+/* Showcase */
+
+#showcase {
+    height: 60vh;
+    background: #f8f9fa;
+    padding: 120px 0
+}
+
+#showcase h1 {
+    line-height: 1em;
+}
+
+#showcase .title-on {
+    color: #fff;
+    -webkit-text-stroke: 3px #000;
+}
+
+.showcase-row {
+    display: flex;
+}
+
+.showcase-row-title {
+    padding-top: 70px;
+}
+
+.showcase-row-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.showcase-row-image img {
+    height: 350px;
+	border-radius:0px;
+}
+
+/* Sectiom */
+
+.section1-home {
+    height: 10vh;
+}
+
+#section1 {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 1px;
+}
+
+/* About */
+
+#about {
+    background: #fff;
+    padding: 50px 0;
+}
+
+#about h2 {
+    padding-bottom: 30px;
+}
+
+#ABOUT hr {
+    width: 45%;
+    margin-bottom: 30px;
+}
+
+/* Skills */
+
+#skills {
+    padding: 30px 0;
+    background: #f8f9fa;
+}
+
+#skills h2 {
+    padding-bottom: 50px;
+}
+
+.skills-row {
+    display: flex;
+    padding-bottom: 50px;
+
+}
+
+.skills-row-left,
+.skills-row-right {
+    width: 50%;
+    display: flex;
+}
+
+.skills-row-left-image,
+.skills-row-right-image {
+    width: 50%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.skills-row-left-image img,
+.skills-row-right-image img {
+    height: 100px;
+}
+
+/* Timeline */
+
+#timeline {
+    padding: 30px 0;
+    background: #fff;
+}
+
+#timeline h2 {
+    padding-bottom: 20px;
+}
+
+.timeline-row {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.timeline-row-tag {
+    width: 50%;
+    text-align: right;
+    padding-right: 80px;
+}
+
+.timeline-row-tag span {
+    background: #c4c4c4;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 20px;
+}
